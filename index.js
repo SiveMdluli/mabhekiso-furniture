@@ -1,3 +1,6 @@
+/* eslint-disable no-plusplus */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-use-before-define */
 import './style.css';
 import './modules/cart.js';
 import { initNavbar } from './modules/navbar.js';
@@ -8,7 +11,7 @@ import { addClickedClass, removeClickedClass } from './modules/adv-cards.js';
 addClickedClass();
 removeClickedClass();
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   const image = document.querySelector('img');
   const overlay = document.querySelector('.gradient-overlay');
 
